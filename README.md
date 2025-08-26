@@ -9,7 +9,7 @@
     </script>
     
     <form action="javascript:search_nagivate()">
-        <input type="text" placeholder="Search mana costs.." id="navbar_search" onEnter="search_navigate<>" pattern="[0-9WwUuBbRrGgCcPp]*" />
+        <input type="text" placeholder="Search mana costs.." id="navbar_search" onEnter="search_navigate<>" />
         <input type="submit" style="display: none" />
         <input type="button" id="navbar_submit" value="Submit" />
     </form>
