@@ -8,6 +8,6 @@ function search_navigate() {
     window.location = dst;
 }
 </script>
-<input type="search" placeholder="Search creatures.." id="navbar_search" onEnter="search_navigate<>" />
+<input type="search" placeholder="Search mana costs.." id="navbar_search" onEnter="search_navigate<>" pattern="[0-9WwUuBbRrGgCcPp{}/]*" />
 <input type="button" id="navbar_submit" value="Submit" onClick="search_navigate()" />
 </html>
