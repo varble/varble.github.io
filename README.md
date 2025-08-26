@@ -8,7 +8,7 @@
     }
     </script>
     
-    <form action="javascript:search_nagivate()">
+    <form action="javascript:search_navigate()">
         <input type="text" placeholder="Search mana costs.." id="navbar_search" onEnter="search_navigate()" />
         <input type="submit" style="display: none" />
         <input type="button" id="navbar_submit" value="Submit" onClick="search_navigate()"/>
