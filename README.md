@@ -10,7 +10,7 @@
     
     <form action="javascript:search_navigate()">
         <input type="text" placeholder="Search mana costs.." id="navbar_search" />
-        <input type="button" id="navbar_submit" value="Submit" />
+        <input type="submit" id="navbar_submit" value="Submit" />
     </form>
     <p style="font-size: 5px;color:#DBDBDB">V1.0</p>
 </html>
