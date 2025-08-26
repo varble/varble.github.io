@@ -12,4 +12,5 @@
         <input type="text" placeholder="Search mana costs.." id="navbar_search" onEnter="search_navigate()" />
         <input type="button" id="navbar_submit" value="Submit" onClick="search_navigate()"/>
     </form>
+    <p style="font-size: 5px;color:#DBDBDB">V1.0</p>
 </html>
